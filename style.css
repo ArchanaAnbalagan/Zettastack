@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header nav .container{
+    height: 10%;
+}
+header nav .container .navbar-brand img{
+    height:50px;
+    width:220px;
+
+}
+header nav .container .collapse .navbar-nav .nav-item a{
+   
+    margin-right: 30px !important;
+}
+header nav .container .collapse .navbar-nav .nav-item #align{
+   
+    margin-left: 130px !important;
+}
+.home .container-fluid .row .col-md-12 .carousel-inner {
+    background:linear-gradient(black,rgb(146, 59, 8));
+    height:400px;
+    padding: 120px;
+}
+.home .container-fluid .row .col-md-12 .carousel-inner h1{
+    color:white;  
+}
+.home .container-fluid .row .col-md-12 .carousel-inner p{
+    color:white; 
+}
+.section1 .container .row .col-md-4 .card{
+    border: none;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.section1 .container .row .col-md-4 .card:hover{
+    box-shadow: 0px 2px 3px;
+    margin-top:40px;
+}
+.section1 .container .row .col-md-4 .card .card-body  h5{
+ margin-left:55px;
+ font-size:x-large;
+ color:grey;
+ font-weight: 400;
+}
+.section1 .container .row .col-md-4 .card .card-body  p{
+    margin-left:55px;
+    font-size:small;
+    color:grey;
+   }
+.section1 .container .row .col-md-4 .card .card-body .fa-mobile-screen-button{
+  color:rgb(66, 66, 126);
+   }
+ .section1 .container .row .col-md-4 .card .card-body .fa-mobile-screen-button:hover{
+    color:grey;
+    }
+
+  .section1 .container .row .col-md-4 .card .card-body .fa-square-poll-vertical{
+        color:rgb(66, 66, 126);
+         }
+  .section1 .container .row .col-md-4 .card .card-body .fa-square-poll-vertical:hover{
+          color:grey;
+          }
+
+  .section1 .container .row .col-md-4 .card .card-body .fa-cloud{
+            color:rgb(66, 66, 126);
+             }
+   .section1 .container .row .col-md-4 .card .card-body .fa-cloud:hover{
+              color:grey;
+              }
+
+   .recentworks .container .row h5{
+    font-size: x-large;
+    color:rgb(105, 93, 93);
+    font-weight:500;
+   }
+   .recentworks .container .row .col-md-3 .card{
+     border:none;
+   }
+   .recentworks .container .row .col-md-3 .card:hover{
+    box-shadow: 0px 2px 3px;
+    }
+   .recentworks .container .row .col-md-3 .card img{
+    position:relative;
+   
+    transform: scale(1);
+   }
+   
+   .recentworks .container .row .col-md-3 .card a {
+    position:absolute;
+    top:100px;
+    left: 190px;
+    width:100px;
+    font-size:small;
+    border-radius: 0px;
+   }
+   .recentworks .container .row .col-md-3 .card a:hover{
+    left: 180px;
+   }
+  .recentworks .container .row .col-md-3 .card .card-body  h4{
+    font-size:larger;
+    color:grey;
+    font-weight: 400;
+   }
+   .recentworks .container .row .col-md-3 .card .card-body  p{
+    font-size:small;
+    color:grey;
+   
+   }
+   .welcome .container .row h5{
+    font-size: x-large;
+    color:rgb(105, 93, 93);
+    font-weight:500;
+   }
+   .welcome .container .row .col-md-9 img{
+    position: relative;
+   }
+   .welcome .container .row .col-md-9 .cls{
+    position: absolute;
+    top:30;
+   }
+   .contact .container-fluid{
+    background-color: rgb(83, 75, 75);
+   }
+   .contact .container-fluid .row .col-md-6 h5{
+    color:rgb(209, 207, 207);
+    margin-left:60px;
+    font-size: x-large;
+    font-weight:500;
+    padding-top: 30px;
+   }
+   .contact .container-fluid .row .col-md-6 hr{
+    color:rgb(209, 207, 207);
+    margin-left:60px;
+   }
+   .contact .container-fluid .row .col-md-6 p{
+    color:rgb(209, 207, 207);
+    margin-left:60px;
+    font-size:smaller;
+    
+   }
+   .contact .container-fluid .row .col-md-6 i{
+    color:rgb(209, 207, 207);
+    margin-left: 10px;
+   }
+   .contact .container-fluid .row .col-md-6 i:hover{
+    color:rgb(82, 4, 4);
+    
+   }
+   .footer .container-fluid {
+    background-color: grey;
+    height: 100px;
+   }
+   .footer .container-fluid .row p{
+    color: white;
+    font-size: small;
+    margin-left: 200px;
+    margin-top: 50px;
+   }
+
+   @media  screen and (max-width:576px){
+    .home .container-fluid .row .col-md-12 .carousel-inner {
+        height:400px;
+        padding: 50px;
+    }
+    .home .container-fluid .row .col-md-12 .carousel-inner .carousel-item .col-md-6 img{
+       height:150px;
+       width:200px; 
+    }
+    .footer .container-fluid .row p{
+        color: white;
+        margin-left: 70px;
+        margin-top: 50px;
+       }
+    header nav .container .collapse .navbar-nav .nav-item #align{
+   
+        margin-left: 0px !important;
+    }
+   }
